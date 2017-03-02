@@ -70,8 +70,9 @@ class WTDatePickerView: UIView,UIPickerViewDataSource,UIPickerViewDelegate {
         containerView.addSubview(self.topView)
         containerView.addSubview(self.datePickViewer)
         
-        var lineView1 = UIView(frame: CGRect(x: 0, y: self.containerHeight - self.bottomHeight - LineWidth, width: self.containerHeight, height: LineWidth))
+        var lineView1 = UIView(frame: CGRect(x: 0, y: self.containerHeight - self.bottomHeight - LineWidth, width: self.containerWidth, height: LineWidth))
         lineView1.backgroundColor = self.pickerViewBackGroundColor
+        containerView.addSubview(lineView1)
         
         var lineView2 = UIView(frame:CGRect(x:self.containerWidth * 0.5 - LineWidth,  y:self.containerHeight - self.bottomHeight, width:LineWidth, height:self.bottomHeight))
         lineView2.backgroundColor = self.pickerViewBackGroundColor
