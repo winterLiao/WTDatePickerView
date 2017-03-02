@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E5BAF6F1E66733A0030C396 /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5BAF6E1E66733A0030C396 /* global.swift */; };
+		7E95A27C1E652AD300238B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95A27B1E652AD300238B49 /* AppDelegate.swift */; };
+		7E95A27E1E652AD300238B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95A27D1E652AD300238B49 /* ViewController.swift */; };
+		7E95A2811E652AD300238B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E95A27F1E652AD300238B49 /* Main.storyboard */; };
+		7E95A2831E652AD300238B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E95A2821E652AD300238B49 /* Assets.xcassets */; };
+		7E95A2861E652AD300238B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E95A2841E652AD300238B49 /* LaunchScreen.storyboard */; };
+		7E95A2911E652AD300238B49 /* WTDatePickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95A2901E652AD300238B49 /* WTDatePickerViewTests.swift */; };
+		7E95A29C1E652AD300238B49 /* WTDatePickerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95A29B1E652AD300238B49 /* WTDatePickerViewUITests.swift */; };
+		7E95A2AA1E652C2300238B49 /* WTDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E95A2A91E652C2300238B49 /* WTDatePickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E95A28D1E652AD300238B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E95A2701E652AD300238B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E95A2771E652AD300238B49;
+			remoteInfo = WTDatePickerView;
+		};
+		7E95A2981E652AD300238B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E95A2701E652AD300238B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E95A2771E652AD300238B49;
+			remoteInfo = WTDatePickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E5BAF6E1E66733A0030C396 /* global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
+		7E95A2781E652AD300238B49 /* WTDatePickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTDatePickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E95A27B1E652AD300238B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E95A27D1E652AD300238B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E95A2801E652AD300238B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E95A2821E652AD300238B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E95A2851E652AD300238B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E95A2871E652AD300238B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E95A28C1E652AD300238B49 /* WTDatePickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTDatePickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E95A2901E652AD300238B49 /* WTDatePickerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTDatePickerViewTests.swift; sourceTree = "<group>"; };
+		7E95A2921E652AD300238B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E95A2971E652AD300238B49 /* WTDatePickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTDatePickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E95A29B1E652AD300238B49 /* WTDatePickerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTDatePickerViewUITests.swift; sourceTree = "<group>"; };
+		7E95A29D1E652AD300238B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E95A2A91E652C2300238B49 /* WTDatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTDatePickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E95A2751E652AD300238B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E95A2891E652AD300238B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E95A2941E652AD300238B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E95A26F1E652AD200238B49 = {
+			isa = PBXGroup;
+			children = (
+				7E95A27A1E652AD300238B49 /* WTDatePickerView */,
+				7E95A28F1E652AD300238B49 /* WTDatePickerViewTests */,
+				7E95A29A1E652AD300238B49 /* WTDatePickerViewUITests */,
+				7E95A2791E652AD300238B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E95A2791E652AD300238B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E95A2781E652AD300238B49 /* WTDatePickerView.app */,
+				7E95A28C1E652AD300238B49 /* WTDatePickerViewTests.xctest */,
+				7E95A2971E652AD300238B49 /* WTDatePickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E95A27A1E652AD300238B49 /* WTDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				7E95A27B1E652AD300238B49 /* AppDelegate.swift */,
+				7E95A2A91E652C2300238B49 /* WTDatePickerView.swift */,
+				7E5BAF6E1E66733A0030C396 /* global.swift */,
+				7E95A27D1E652AD300238B49 /* ViewController.swift */,
+				7E95A27F1E652AD300238B49 /* Main.storyboard */,
+				7E95A2821E652AD300238B49 /* Assets.xcassets */,
+				7E95A2841E652AD300238B49 /* LaunchScreen.storyboard */,
+				7E95A2871E652AD300238B49 /* Info.plist */,
+			);
+			path = WTDatePickerView;
+			sourceTree = "<group>";
+		};
+		7E95A28F1E652AD300238B49 /* WTDatePickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E95A2901E652AD300238B49 /* WTDatePickerViewTests.swift */,
+				7E95A2921E652AD300238B49 /* Info.plist */,
+			);
+			path = WTDatePickerViewTests;
+			sourceTree = "<group>";
+		};
+		7E95A29A1E652AD300238B49 /* WTDatePickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E95A29B1E652AD300238B49 /* WTDatePickerViewUITests.swift */,
+				7E95A29D1E652AD300238B49 /* Info.plist */,
+			);
+			path = WTDatePickerViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E95A2771E652AD300238B49 /* WTDatePickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E95A2A01E652AD300238B49 /* Build configuration list for PBXNativeTarget "WTDatePickerView" */;
+			buildPhases = (
+				7E95A2741E652AD300238B49 /* Sources */,
+				7E95A2751E652AD300238B49 /* Frameworks */,
+				7E95A2761E652AD300238B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTDatePickerView;
+			productName = WTDatePickerView;
+			productReference = 7E95A2781E652AD300238B49 /* WTDatePickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E95A28B1E652AD300238B49 /* WTDatePickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E95A2A31E652AD300238B49 /* Build configuration list for PBXNativeTarget "WTDatePickerViewTests" */;
+			buildPhases = (
+				7E95A2881E652AD300238B49 /* Sources */,
+				7E95A2891E652AD300238B49 /* Frameworks */,
+				7E95A28A1E652AD300238B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E95A28E1E652AD300238B49 /* PBXTargetDependency */,
+			);
+			name = WTDatePickerViewTests;
+			productName = WTDatePickerViewTests;
+			productReference = 7E95A28C1E652AD300238B49 /* WTDatePickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E95A2961E652AD300238B49 /* WTDatePickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E95A2A61E652AD300238B49 /* Build configuration list for PBXNativeTarget "WTDatePickerViewUITests" */;
+			buildPhases = (
+				7E95A2931E652AD300238B49 /* Sources */,
+				7E95A2941E652AD300238B49 /* Frameworks */,
+				7E95A2951E652AD300238B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E95A2991E652AD300238B49 /* PBXTargetDependency */,
+			);
+			name = WTDatePickerViewUITests;
+			productName = WTDatePickerViewUITests;
+			productReference = 7E95A2971E652AD300238B49 /* WTDatePickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E95A2701E652AD300238B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Haochuang;
+				TargetAttributes = {
+					7E95A2771E652AD300238B49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					7E95A28B1E652AD300238B49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E95A2771E652AD300238B49;
+					};
+					7E95A2961E652AD300238B49 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E95A2771E652AD300238B49;
+					};
+				};
+			};
+			buildConfigurationList = 7E95A2731E652AD300238B49 /* Build configuration list for PBXProject "WTDatePickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E95A26F1E652AD200238B49;
+			productRefGroup = 7E95A2791E652AD300238B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E95A2771E652AD300238B49 /* WTDatePickerView */,
+				7E95A28B1E652AD300238B49 /* WTDatePickerViewTests */,
+				7E95A2961E652AD300238B49 /* WTDatePickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E95A2761E652AD300238B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E95A2861E652AD300238B49 /* LaunchScreen.storyboard in Resources */,
+				7E95A2831E652AD300238B49 /* Assets.xcassets in Resources */,
+				7E95A2811E652AD300238B49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E95A28A1E652AD300238B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E95A2951E652AD300238B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E95A2741E652AD300238B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5BAF6F1E66733A0030C396 /* global.swift in Sources */,
+				7E95A27E1E652AD300238B49 /* ViewController.swift in Sources */,
+				7E95A2AA1E652C2300238B49 /* WTDatePickerView.swift in Sources */,
+				7E95A27C1E652AD300238B49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E95A2881E652AD300238B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E95A2911E652AD300238B49 /* WTDatePickerViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E95A2931E652AD300238B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E95A29C1E652AD300238B49 /* WTDatePickerViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E95A28E1E652AD300238B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E95A2771E652AD300238B49 /* WTDatePickerView */;
+			targetProxy = 7E95A28D1E652AD300238B49 /* PBXContainerItemProxy */;
+		};
+		7E95A2991E652AD300238B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E95A2771E652AD300238B49 /* WTDatePickerView */;
+			targetProxy = 7E95A2981E652AD300238B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E95A27F1E652AD300238B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E95A2801E652AD300238B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E95A2841E652AD300238B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E95A2851E652AD300238B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E95A29E1E652AD300238B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E95A29F1E652AD300238B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E95A2A11E652AD300238B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WTDatePickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.WTDatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7E95A2A21E652AD300238B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WTDatePickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.WTDatePickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7E95A2A41E652AD300238B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTDatePickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.WTDatePickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTDatePickerView.app/WTDatePickerView";
+			};
+			name = Debug;
+		};
+		7E95A2A51E652AD300238B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTDatePickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.WTDatePickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTDatePickerView.app/WTDatePickerView";
+			};
+			name = Release;
+		};
+		7E95A2A71E652AD300238B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WTDatePickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.WTDatePickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WTDatePickerView;
+			};
+			name = Debug;
+		};
+		7E95A2A81E652AD300238B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WTDatePickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qhfax.com.WTDatePickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WTDatePickerView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E95A2731E652AD300238B49 /* Build configuration list for PBXProject "WTDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E95A29E1E652AD300238B49 /* Debug */,
+				7E95A29F1E652AD300238B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E95A2A01E652AD300238B49 /* Build configuration list for PBXNativeTarget "WTDatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E95A2A11E652AD300238B49 /* Debug */,
+				7E95A2A21E652AD300238B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E95A2A31E652AD300238B49 /* Build configuration list for PBXNativeTarget "WTDatePickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E95A2A41E652AD300238B49 /* Debug */,
+				7E95A2A51E652AD300238B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E95A2A61E652AD300238B49 /* Build configuration list for PBXNativeTarget "WTDatePickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E95A2A71E652AD300238B49 /* Debug */,
+				7E95A2A81E652AD300238B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E95A2701E652AD300238B49 /* Project object */;
+}
